@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crowd analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .video-container, .image-container {
+            margin: 10px;
+            text-align: center;
+        }
+        video, img {
+            max-width: 800px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--<div class="video-container">
+            <h2>Video</h2>
+            <video controls>
+                <source src="your_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>-->
+        <div class="image-container">
+            <h2>Detection & Tracking</h2>
+            <img src="img1.png" alt="Image 1">
+        </div>
+        <div class="image-container">
+            <h2>Optical flow of crowd movement</h2>
+            <img src="img2.png" alt="Image 2">
+        </div>
+        <div class="image-container">
+            <h2>Video summary</h2>
+            <img src="img3.png" alt="Image 3">
+        </div>
+        <div class="image-container">
+            <h2>Energy level graph</h2>
+            <img src="img4.png" alt="Image 4">
+        </div>
+        <div class="image-container">
+            <h2>Overall Summary</h2>
+            <img src="img5.png" alt="Image 5">
+        </div>
+        <div class="image-container">
+            <h2>Heatmap</h2>
+            <img src="img6.png" alt="Image 6">
+        </div>
+    </div>
+</body>
+</html>
